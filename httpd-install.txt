@@ -1,0 +1,16 @@
+Installing HTTPD
+
+This procedure describes the steps to install Apache HTTPD on Fedora.
+
+    Install HTTPD packages.
+
+    sudo dnf install httpd -y
+
+    Start the HTTPD service.
+
+    sudo systemctl start httpd.service
+
+To enable auto start of HTTPD service at boot, execute the following command:
+
+sudo systemctl enable httpd.service
+
